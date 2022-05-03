@@ -90,10 +90,11 @@ body {
 .chefs h3{
     width: 300px;
     display: inline-block;
+    
 }
 .chefs p{
     width: 300px;
-    
+    display: inline-block;
 }
 
 .footer {
