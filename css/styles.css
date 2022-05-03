@@ -1,0 +1,68 @@
+/**/
+enserar selectores * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+body {
+    background: f2f2f2;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.headerPrincipal,
+.noticias,
+.galeriaImagenes,
+.menuPrincipal,
+.aside,
+.footer {
+    background: #ccc;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.headerPrincipal {
+    background-color: #FFFFFA;
+    
+
+}
+
+.headerPrincipal h1 {
+    color: #22181C;
+}
+
+.menuPrincipal {
+    background-color: #C75A5A;
+    text-align: center;
+    height: 30px;
+    text
+
+}
+
+.menuPrincipal a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #FFFFFA;
+    text-transform: uppercase;
+    
+
+}
+
+.menuPrincipal a:hover {
+    background-color: #EA5E5E;
+    margin: 0 1%;
+    font-size: 20px;
+
+}
+
+.galeriaImagenes img {
+    width: 100%;
+}
+
+.footer {
+    background-color: #C75A5A;
+    text-align: center;
+    height: 50px;
+}
