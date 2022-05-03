@@ -1,9 +1,8 @@
-/**/
-enserar selectores * {
+/*enserar selectores https://github.com/rlramirez/iwapp1*/
+* {
     padding: 0;
     margin: 0;
     border: 0;
-
 }
 
 body {
@@ -11,21 +10,11 @@ body {
     font-family: 'ABeeZee', sans-serif;
 }
 
-.headerPrincipal,
-.noticias,
-.galeriaImagenes,
-.menuPrincipal,
-.aside,
-.footer {
-    background: #ccc;
-    color: #fff;
-    width: 90%;
-    margin: 0 auto;
-}
+
 
 .headerPrincipal {
     background-color: #FFFFFA;
-    
+
 
 }
 
@@ -37,7 +26,7 @@ body {
     background-color: #C75A5A;
     text-align: center;
     height: 30px;
-    text
+    padding-top: 13px;
 
 }
 
@@ -57,6 +46,54 @@ body {
 
 .galeriaImagenes img {
     width: 100%;
+
+}
+
+.comidaSana {
+    width: 99%;
+    left: 5px;
+    top: 676px;
+
+    background: #FFFFFA;
+    border: 2px solid rgba(237, 106, 90, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.comidaSana article {
+    width: 33%;
+    height: 515px;
+    border-radius: 13px;
+    display: inline-block;
+    text-align: center;
+
+}
+.comidaSana h3{
+    font-size: 20px;
+}
+.comidaSana p{
+    font-size: 10px;
+}
+.chefs{
+    width: 100%;
+    background-color: #FFFFFA;   
+}
+.chefs article{
+    width: 49%;
+    display: inline-block;
+}
+.chefs img{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    display: inline-block;
+}
+.chefs h3{
+    width: 300px;
+    display: inline-block;
+}
+.chefs p{
+    width: 300px;
+    
 }
 
 .footer {
@@ -64,3 +101,16 @@ body {
     text-align: center;
     height: 50px;
 }
+
+@media only screen and (max-width: 800px) {
+    .comidaSana article {
+        width: 100%;
+        height: 515px;
+        left: 60px;
+        top: 730px;
+        border-radius: 13px;
+        display: block;
+        text-align: center;
+    
+    }
+  }
